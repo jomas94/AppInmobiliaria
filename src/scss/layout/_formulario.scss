@@ -38,5 +38,19 @@
         width: auto;
     }
 
+    input[type="submit"]{
+        margin: 2rem 0 0 0 ;
+        width: 100%;
+
+        @include tablet{
+            width: auto;
+
+        }
+
+    }
+
+    
+
+    
 }
 
